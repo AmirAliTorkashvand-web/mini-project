@@ -1,0 +1,119 @@
+@media screen and (max-width: 783px){
+    .new_member_parent{
+        display: none;
+    }
+    .shop_icon{
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    .shop_counter{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .burger_menu{
+        display: flex;
+    }
+    .image_menu_responsive{
+        display: flex;
+    }
+    .image_menu{
+        display: none ;
+    }
+    .mobile_cart{
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+    .header_shop-box::after{
+        content: '';
+        width: 240px;
+        border: 1px solid rgba(229, 229, 229, 1);
+        height: 1px;
+        position: absolute;
+        top: 60px;
+    }
+    .header_shop-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .shop_box_non_responsive{
+        display: none;
+    }
+    .shop_box_responsive{
+        width: 101%;
+        height: 100%;
+        background-color: #fff;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0;
+    }
+    .last_shop_product::after{
+        display: none;
+    }
+    .shop_product{
+        margin-top: 24px;
+    }
+    .bottom_shop{
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .container_shop{
+        display: flex;
+        flex-direction: column;
+    }
+    .price_result, .price_last_result{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .button_bottom{
+        display: flex;
+    }
+    .content_open{
+        display: none;
+    }
+    .shopping_begaei{
+        display: none;
+    }
+    .shopping_bag{
+        display: flex;
+    }
+    .shop_icon_non_responsive{
+        display: none;
+    }
+    .titles_bottom{
+        display: flex;
+        width: 240px;
+        justify-content: space-between;
+    }
+    .bag_icon{
+        display: flex;
+    }
+    .header{
+        z-index: auto;
+    }
+    .mobile_cart{
+        z-index: 50;
+    }
+    .right_menu_kesho{
+        z-index: 50;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .bottom_right_menu{
+        margin-bottom: 20px;
+    }
+    .open_right{
+        right: 0;
+    }
+    .footer{
+        display: flex;
+    }
+}
