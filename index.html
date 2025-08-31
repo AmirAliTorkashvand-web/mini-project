@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List پیشرفته</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1>Todo List پیشرفته</h1>
+
+    <div class="add-item">
+      <input type="text" id="new-item" placeholder="آیتم جدید را وارد کنید">
+      <button id="add-btn">افزودن</button>
+    </div>
+
+    <div class="sort-buttons">
+      <button id="sort-asc">مرتب‌سازی صعودی</button>
+      <button id="sort-desc">مرتب‌سازی نزولی</button>
+    </div>
+    <div class="sort-buttons sort-filter">
+      <button id="sort-all">مرتب‌سازی همه</button>
+      <button id="sort-done">مرتب‌سازی انجام شده ها</button>
+      <button id="sort-not-done">مرتب‌سازی انجام نشده ها</button>
+    </div>
+
+    <ul id="todo-list">
+    </ul>
+  </div>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
