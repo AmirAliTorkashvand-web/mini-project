@@ -1,35 +1,58 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo List پیشرفته</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="todo-container">
-    <h1>Todo List پیشرفته</h1>
-
-    <div class="add-item">
-      <input type="text" id="new-item" placeholder="آیتم جدید را وارد کنید">
-      <button id="add-btn">افزودن</button>
+    <div class="container">
+        <div class="product image_container_first">
+            <div class="image_container">
+                <img src="assets/images/Blueberries.png" alt="" class="back_image back_first">
+                <img src="assets/images/Peach.png" alt="" class="back_image back_second">
+                <img src="assets/images/Drink3.png" alt="" class="main_image">
+                <div class="info_box">
+                    <span>طعم بهشت میده!</span>
+                    <span>تیکه های میوه رو کاملا حس میکنی:)</span>
+                </div>
+            </div>
+            <div class="titles">
+                <span class="main_title">آبمیوه طبیعی</span>
+                <span class="sub_title"> با طعم زغال اخته و هلو</span>
+            </div>
+        </div>
+        <div class="product image_container_second">
+            <div class="image_container">
+                <img src="assets/images/Orange.png" alt="" class="back_image back_first">
+                <img src="assets/images/OrangeRed.png" alt="" class="back_image back_second">
+                <img src="assets/images/Drink2.png" alt="" class="main_image">
+                <div class="info_box">
+                    <span>طعم بهشت میده!</span>
+                    <span>تیکه های میوه رو کاملا حس میکنی:)</span>
+                </div>
+            </div>
+            <div class="titles">
+                <span class="main_title">آبمیوه طبیعی</span>
+                <span class="sub_title"> با طعم پرتقال</span>
+            </div>
+        </div>
+        <div class="product image_container_third">
+            <div class="image_container">
+                <img src="assets/images/Kiwi.png" alt="" class="back_image back_first">
+                <img src="assets/images/Lemon.png" alt="" class="back_image back_second">
+                <img src="assets/images/Drink1.png" alt="" class="main_image">
+                <div class="info_box">
+                    <span>طعم بهشت میده!</span>
+                    <span>تیکه های میوه رو کاملا حس میکنی:)</span>
+                </div>
+            </div>
+            <div class="titles">
+                <span class="main_title">آبمیوه طبیعی</span>
+                <span class="sub_title"> با طعم کیوی و لیمو</span>
+            </div>
+        </div>
     </div>
-
-    <div class="sort-buttons">
-      <button id="sort-asc">مرتب‌سازی صعودی</button>
-      <button id="sort-desc">مرتب‌سازی نزولی</button>
-    </div>
-    <div class="sort-buttons sort-filter">
-      <button id="sort-all">مرتب‌سازی همه</button>
-      <button id="sort-done">مرتب‌سازی انجام شده ها</button>
-      <button id="sort-not-done">مرتب‌سازی انجام نشده ها</button>
-    </div>
-
-    <ul id="todo-list">
-    </ul>
-  </div>
-  <script src="assets/js/jquery-3.7.1.min.js"></script>
-  <script src="assets/js/script.js"></script>
 </body>
 </html>
