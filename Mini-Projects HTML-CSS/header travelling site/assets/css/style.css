@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.container video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.header_part_one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.header_part_one img{
+    width: 160px;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.header_part_one ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    transition: all 250ms ease-in-out;
+}
+.header_part_two h1{
+    display: flex;
+    justify-self: center;
+    color: #fff;
+    font-size: 90px;
+    margin-top: 2rem;
+}
+.header_part_two button{
+    color: #000;
+    border: none;
+    padding: 16px 5px;
+    font-weight: 600;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.button{
+    display: flex;
+    justify-self: center;
+    margin-top: 2rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input_search{
+    width: 600px;
+    border-radius: 25px;
+    padding: 1rem;
+    border: none;
+    outline: 0;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.input_submit{
+    width: 150px;
+    background-color: #FDBC00;
+    border: none;
+    padding: 1rem;
+    border-radius: 0 25px 25px 0;
+    position: absolute;
+    margin-left: 28.52rem;
+    top: 32px;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    color: #fff;
+}
+.header_part_one ul li a:hover{
+    background-color: #00c0e2;
+    border-radius: 5px;
+}
+.header_part_two .button button:hover , .header_part_two form .input_submit:hover{
+    background-color: #00c0e2;
+    color: #fff;
+}
